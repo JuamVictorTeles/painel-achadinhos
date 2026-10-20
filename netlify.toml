@@ -1,0 +1,6 @@
+# Site 100% estatico (gerado pelo robo) — sem etapa de build.
+# Publica a raiz do repo; o comando "true" so encerra na hora,
+# minimizando os minutos de build cobrados por deploy.
+[build]
+  command = "true"
+  publish = "."
